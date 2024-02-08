@@ -7,7 +7,7 @@
     "start": "node server/server.js",
     "test": "mocha server/**/*.test.js",
     "test-watch": "nodemon --exec 'npm test'",
-    "render-build":"npm install && npm run build"
+    "render-build":"npm install"
   },
   "engines": {
     "node": "16.14.2"
